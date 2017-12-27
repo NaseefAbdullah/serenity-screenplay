@@ -2,5 +2,5 @@ Feature: Login to tours website
 
   @smokeTest
   Scenario: Login with username and password
-    Given that Amar is on tours login page
-    When Amar type username mercury and password mercury
+    Given that Amar is mercury tours user
+    When he type username mercury and password mercury and submit

@@ -88,10 +88,7 @@
                <version>2.20</version>
                <configuration>
                    <includes>
-                       <include>**/*Test.java</include>
-                       <include>**/Test*.java</include>
-                       <include>**/*TestSuite.java</include>
-                       <include>**/When*.java</include>
+                       <include>**/*Runner.java</include>
                    </includes>
                </configuration>
                <executions>
