@@ -24,7 +24,10 @@ public class LoginToToursStepDefs {
     @When("^(.*) type username (.*) and password (.*) and submit$")
     public void type_username_and_password_and_submit(String actor, String username, String password) {
         theActorCalled(actor).attemptsTo(
-                Login.withUserName(username).andPassword(password).submit()
+                Login
+                .withUserName(username)
+                .andPassword(password)
+                .submit()
         );
     }
 }
